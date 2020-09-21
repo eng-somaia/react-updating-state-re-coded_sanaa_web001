@@ -11,9 +11,11 @@ class ClickityClick extends React.Component {
   }
 
   handleClick = () => {
-this.setState({
+  this.setState({
   hasBeenClicked: true
-})  };
+})  
+console.log(this.state.hasBeenClicked); 
+};
 
   render() {
     return (
